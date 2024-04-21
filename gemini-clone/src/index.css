@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Holtwood+One+SC&family=Outfit:wght@100..900&display=swap');
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Outfit;
 }
 
 #root {
