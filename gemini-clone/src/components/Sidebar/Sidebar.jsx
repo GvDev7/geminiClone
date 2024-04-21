@@ -13,10 +13,16 @@ const Sidebar = () => {
             </div>
             <div className="recent">
                 <p className="recent-title">Recent</p>
+                <div className="recent-entry">
+                    <img src={assets.message_icon} alt="message box icon" />
+                    <p>How can AI help my company?...</p>
+                </div>
             </div>
         </div>
         <div className="bottom">
-
+            <div className="bottom-item">
+                <img src={assets.question_icon} alt="question mark icon" />
+            </div>
         </div>
     </div>
   )
